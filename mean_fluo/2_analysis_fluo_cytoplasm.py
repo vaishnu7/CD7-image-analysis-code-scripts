@@ -19,7 +19,7 @@ from scipy.ndimage import binary_erosion
 # CONFIGURATION — edit these to match your setup
 # ============================================================================
 
-PARENT_DIR      = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\C3\P45"
+PARENT_DIR      = r"C:\Users\path to folder"
 EXPERIMENT_NAME = "New-02-Scene-45-P45-C03"
 
 MASK_DIR   = os.path.join(PARENT_DIR, "segmentation_results")
