@@ -83,7 +83,9 @@ Install dependencies:
 pip install cellpose numpy pandas scipy matplotlib tifffile Pillow
 ```
 
-It is recommended to run segmentation scripts inside the `cellpose3` conda environment:
+It is recommended to run segmentation scripts inside the `cellpose3` conda environment (install Cellpose 3.1 in Python 11 and not Cellpose SAM / v4+).
+
+Verify release [here](https://github.com/MouseLand/cellpose/releases) and create suitable venv before running these scripts:
 ```bash
 conda activate cellpose3 && python your_script.py
 ```
