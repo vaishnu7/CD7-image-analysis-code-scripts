@@ -3,6 +3,12 @@
 CZI to Image Converter with Frame Extraction and Organized Output
 Extracts individual frames from CZI files as TIFF or PNG and organizes them by channel and timepoint
 Handles complex multi-dimensional data (Z-stacks, series, etc.)
+
+To run use: C:/path to your python exe/AppData/Local/Programs/Python/Python311/python.exe 
+  "C:/path to this script/convert_czi_tif.py" 
+ "C:/path to your output"
+(paste as one line)
+
 """
 
 import os
