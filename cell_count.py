@@ -21,7 +21,7 @@ from collections import defaultdict
 # ============================================================================
 
 # Parent directory containing all channel folders
-PARENT_DIR = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\12dec25_data\output\P9"
+PARENT_DIR = r"C:\Users\path to folder"
 
 # Experiment name (used to find channel folders)
 EXPERIMENT_NAME = "New-01-Scene-10-P9-A06"
