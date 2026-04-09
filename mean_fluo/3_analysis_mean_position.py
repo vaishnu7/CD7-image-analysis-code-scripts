@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-BASE_DIR = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\C2"
+BASE_DIR = r"C:\Users\path to folder"
 POSITIONS = ["P41", "P42", "P43"]
 CSV_NAME  = "segmentation_results/cytoplasm_binary_quantification.csv"
 
