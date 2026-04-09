@@ -42,15 +42,15 @@ from scipy.ndimage import binary_erosion
 #                         USER SETTINGS
 # ======================================================================
 
-CH1_FOLDER   = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\B2\P17\New-02-Scene-36-P17-B02_ch1"
-CH2_FOLDER   = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\B2\P17\New-02-Scene-36-P17-B02_ch2"
-CH3_FOLDER   = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\B2\P17\New-02-Scene-36-P17-B02_ch3"
+CH1_FOLDER   = r"C:\Users\path to fluorescence channel"
+CH2_FOLDER   = r"C:\Users\path to fluorescence channel"
+CH3_FOLDER   = r"C:\Users\path to fluorescence channel"
 
 # Folder produced by step1_segment.py
-MASKS_FOLDER = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\B2\P17\masks"
+MASKS_FOLDER = r"C:\Users\path to masks folder"
 
 # Where to save results
-OUTPUT_FOLDER = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\B2\P17\results"
+OUTPUT_FOLDER = r"C:\Users\path to output folder"
 
 # Max centroid displacement (px) allowed between consecutive frames
 MAX_DIST = 150
