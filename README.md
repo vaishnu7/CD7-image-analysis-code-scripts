@@ -33,20 +33,35 @@ Scripts for tracking individual cells across timeframes in timelapse experiments
 
 ---
 
-## Pipeline
+## Pipeline for mean fluorescence quantification
 
 ```
 Raw .czi files
       │
       ▼
-convert_czi_tif.py          → per-channel .png/.tif images
+convert_czi_tif.py                  → per-channel .png/.tif images
       │
       ▼
-Cellpose segmentation        → masks_dic_t****.tif
-(analysis_seg_only.py)       → masks_h2b_t****.tif
+Cellpose segmentation               → masks_dic_t****.tif
+1_analysis_fluo_cellpose.py         → masks_h2b_t****.tif
       │
       ▼
-mean_fluo / cell_track       → C/N ratios, fluorescence CSVs, plots
+2_analysis_fluo_cytoplasm.py        → C/N ratios, fluorescence CSVs, plots
+```
+
+## Pipeline for segmentation and cell track with quantification (separately)
+
+```
+Raw .czi files
+      │
+      ▼
+1_segment.py                  → crop and generate masks for single cell tracking
+      │
+      ▼
+2_track_and_analyse.py        → interactively select cell to track and quantify
+      │
+      ▼
+3_video.py                    → generate and save video of the cell track
 ```
 
 ---
