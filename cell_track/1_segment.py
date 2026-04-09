@@ -37,10 +37,10 @@ from cellpose import models
 #                         USER SETTINGS
 # ======================================================================
 
-CH0_FOLDER = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\B2\P17\New-02-Scene-36-P17-B02_ch0"
-CH3_FOLDER = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\B2\P17\New-02-Scene-36-P17-B02_ch3"
+CH0_FOLDER = r"C:\Users\path to your file"
+CH3_FOLDER = r"C:\Users\path to your file"
 
-MASKS_FOLDER = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\B2\P17\masks"
+MASKS_FOLDER = r"C:\Users\path to your output"
 
 # --- Starting parameters (will be tuned interactively) ----------------
 DIAMETER_CELL     = 195   # expected whole-cell diameter in pixels
