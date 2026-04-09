@@ -21,8 +21,8 @@ from collections import defaultdict
 # CONFIGURATION
 # ============================================================================
 
-PARENT_DIR = r"C:\Users\gz24763\OneDrive - University of Bristol\Documents\PC9_images\18_03_2026\C3\P45"
-EXPERIMENT_NAME = "New-02-Scene-45-P45-C03"
+PARENT_DIR = r"C:\Users\path to the .tif folder"
+EXPERIMENT_NAME = "New-02-Scene-45-P45-C03" #this is a sample
 OUTPUT_DIR = os.path.join(PARENT_DIR, "segmentation_results")
 
 CHANNELS = {
@@ -43,7 +43,7 @@ SEGMENTATION_CONFIGS = {
     },
     "h2b_mask": {
         "seg_channel":        "ch3",
-        "model_type":         "cyto3",
+        "model_type":         "cyto3", #for our mask we chose cyto3 model instead of nuclei but you can change as per your need
         "diameter":           80,
         "flow_threshold":     0.4,
         "cellprob_threshold": 0.0,
